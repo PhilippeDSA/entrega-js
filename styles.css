@@ -1,0 +1,38 @@
+body {
+    background-color: antiquewhite;
+    align-items: center;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-size: 50px;
+}
+
+#menu-sticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+    z-index: 1000;
+    border-bottom: 1px solid #ccc;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+    z-index: 10;
+    border-bottom: 1px solid #ccc;
+}
+
+#input-busqueda {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
